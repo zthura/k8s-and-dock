@@ -1,0 +1,6 @@
+# build
+docker build -f docker/Dockerfile -t <yourdockerhubusername>/docker-k8s-lab:v1 .
+
+# run
+docker run --rm -p 3000:3000 <yourdockerhubusername>/docker-k8s-lab:v1
+# test: http://localhost:3000
