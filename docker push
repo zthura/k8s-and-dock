@@ -1,0 +1,3 @@
+docker login
+docker tag <dockerhubusername>/docker-k8s-lab:v1 <dockerhubusername>/docker-k8s-lab:latest
+docker push <dockerhubusername>/docker-k8s-lab:latest
