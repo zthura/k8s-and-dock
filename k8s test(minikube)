@@ -1,0 +1,4 @@
+minikube start --driver=docker
+minikube kubectl -- get nodes
+kubectl apply -f k8s/
+minikube service web-service  # opens browser
